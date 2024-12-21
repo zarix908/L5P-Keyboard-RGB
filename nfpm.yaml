@@ -1,0 +1,17 @@
+name: "kbrgb"
+arch: "amd64"
+platform: "linux"
+version: "0.19.6"
+section: "default"
+priority: "extra"
+maintainer: "zarix908"
+description: |
+  Simple software for keyboard colour controling.
+license: "MIT"
+contents:
+  - src: ./legion-kb-rgb
+    dst: /usr/local/bin/kbrgb
+overrides:
+  deb:
+    scripts:
+      postinstall: ./scripts/postinstall.sh
