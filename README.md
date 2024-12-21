@@ -201,6 +201,11 @@ This program has been tested to work on:
 sudo apt-get install -y libclang-dev libxcb-shm0-dev libusb-1.0-0-dev libx11-dev nasm libdbus-1-dev libudev-dev libxcb-randr0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libxi-dev libxtst-dev
 ```
 
+Also install:
+```
+vcpkg, libyuv-dev, libc6-dev-i386, libvpx-dev, clang
+```
+
 ### Using `cargo-make`
 
 Works on both Windows and Linux.
