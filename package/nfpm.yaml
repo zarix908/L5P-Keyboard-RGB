@@ -9,7 +9,7 @@ description: |
   Simple software for keyboard colour controling.
 license: "MIT"
 contents:
-  - src: ./legion-kb-rgb
+  - src: ../target/release/legion-kb-rgb
     dst: /usr/local/bin/kbrgb
 overrides:
   deb:
